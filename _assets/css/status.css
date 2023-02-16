@@ -1,0 +1,68 @@
+
+.state1 {
+	background-color: #ff7d7d !important;
+	color: #fff !important;
+}
+
+.state2 {
+	background-color: #ff7505 !important;
+	color: #fff !important;
+}
+
+.state3 {
+	background-color: #fad386 !important;
+	color: #000000 !important;
+}
+
+.state4 {
+	background-color: #fad386 !important;
+	color: #ff0000 !important;
+}
+
+.state5 {
+	background-color: #ffffff !important;
+	color: #4571ff !important;
+}
+
+.state6 {
+	background-color: #ffffff !important;
+	color: #000000 !important;
+}
+
+.state7 {
+	background-color: #0077ff !important;
+	color: #ffffff !important;
+}
+
+.state8 {
+	background-color: #2e2e2e !important;
+	color: #ff0000 !important;
+}
+
+.state9 {
+	background-color: #008f07 !important;
+	color: #fff !important;
+}
+
+.state10 {
+	background-color: #ff0000 !important;
+	color: #fff !important;
+}
+
+.state11 {
+	background-color: #ffffff !important;
+	color: #000000 !important;
+}
+
+@keyframes GCSecurityFlash {
+    50%   {background-color: #17a2b8;}
+    100%  {background-color: #20c1db;}
+}
+
+.GCSecurity {
+    animation-name: GCSecurityFlash;
+    animation-duration: 1s;
+    color: #fff;
+    background-color: #17a2b8;
+    animation-iteration-count: infinite;
+}
